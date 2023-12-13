@@ -1,0 +1,60 @@
+.layoutContact {
+  width: 100%;
+  min-height: 80vh;
+  height: auto;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    'form';
+    padding: 5%;
+}
+
+
+/* FORM CONTACTO */
+  .formContacto {
+    grid-area: form;
+    padding-bottom: 2rem;
+  }
+
+  .contacto-container {
+    width: 100%;
+  }
+
+  .contacto-titulo {
+    text-align: left;
+    padding-bottom: 0.6rem;
+  }
+
+  form {
+    background-color: #D9D9D9;
+    padding: 1.5rem 3.6rem 1.8rem 3.6rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #inputNombre,
+  #inputMail,
+  #inputMensaje {
+    border-radius: 25px;
+  }
+
+  .btnEnviar {
+    border-radius: 25px;
+    border-color: #55AECA;
+    background-color: #55AECA;
+    color: white;
+    align-self: flex-end;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    transition: .4s;
+  }
+
+  .btnEnviar:hover {
+    transform: scale(1.02);
+    border-color: #55AECA;
+    background-color: #55AECA;
+    color: white;
+  } 
+
+/* Termina css del FORM CONTACTO */

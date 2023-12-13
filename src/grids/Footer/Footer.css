@@ -1,0 +1,27 @@
+/* FOOTER */
+  .footerContainer{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #F18018;
+    color: white;
+    padding: 1.5rem 1rem 2rem 1rem;
+    text-align: center;
+  }
+  .footerContainer a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .footerContainer a:hover {
+    font-weight: bold;
+  }
+  .footerContainer img {
+    display: block;
+    margin: auto;
+  }
+/* Termina css del FOOTER */
+
+@media only screen and (max-width: 768px) {
+  .footerContainer a{
+    font-size: 0.6rem;
+  }
+}

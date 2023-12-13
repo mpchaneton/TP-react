@@ -1,0 +1,70 @@
+.layoutLogin {
+  width: 100%;
+  min-height: 80vh;
+  height: auto;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.plane{
+  width: 100px;
+  margin-bottom: 2rem;
+}
+
+.container-form{
+  width: 60%;
+}
+
+/* a corregir -> los titulos van en blanco sobre fondo naranja*/
+.tituloLogin, .subTituloLogin{
+  color: #F18018;
+  text-align: center;
+}
+
+/* Estilo del login */
+.formInicioSesion{
+  background-color: #D9D9D9;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  margin-top: 1.5rem;
+  align-items: center;
+}
+
+#emailField,
+#userName,
+#passwordField {
+  border-radius: 25px;
+}
+
+.btnIniciarSesion {
+  width: 50%;
+  border-radius: 25px;
+  border: #55AECA;
+  background-color: #55AECA;
+  color: white;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  transition: .4s;
+}
+
+.btnIniciarSesion:hover {
+  transform: scale(1.02);
+  border-color: #55AECA;
+  background-color: #55AECA;
+  color: white;
+} 
+
+.textoRegistrate{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnRegistrate {
+  font-weight: bold;
+}

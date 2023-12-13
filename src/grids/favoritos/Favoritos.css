@@ -1,0 +1,76 @@
+.layoutFavoritos {
+  width: 100%;
+  height: auto;
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    'favoritos';
+  padding: 5%;
+}
+
+.favoritosContainer {
+  grid-area: favoritos;
+}
+
+.headFavorito{
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-between;
+}
+
+.btnAgregarFavoritos {
+  width: 30%;
+  border-radius: 25px;
+  border-color: #55AECA;
+  background-color: #55AECA;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  transition: .4s;
+}
+
+
+.btnAgregarFavoritos:hover {
+  transform: scale(1.02);
+  border-color: #55AECA;
+  background-color: #55AECA;
+  color: white;
+} 
+
+.mostrarFavoritosContainer{
+  margin: 2rem 0 3rem 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .layoutInicio {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      'favoritos';
+  }
+  .favoritosContainer h2{
+    text-align: center;
+  }
+  .headFavorito {
+    display: flex;
+    flex-direction: column;
+  }
+  .btnAgregarFavoritos {
+    width: 80%;
+    margin-top: 1.5rem;
+  }
+  .favorito .card {
+    max-width: 260px;
+  }
+}
